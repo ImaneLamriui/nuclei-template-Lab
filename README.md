@@ -13,7 +13,7 @@ Ejecuta esta plantilla **solo** contra sistemas que tengas permiso para evaluar 
 - Conexión a terminal con permisos adecuados
 
 ## Cómo ejecutar (ejemplo)
-```bash
+```
 # instalar nuclei si no lo tienes
 curl -sSfL https://raw.githubusercontent.com/projectdiscovery/nuclei/v3/cmd/nuclei/install.sh | bash
 sudo mv nuclei /usr/local/bin/
@@ -31,5 +31,10 @@ Devuelve coincidencia si el servidor responde con los indicadores definidos en m
 Buenas prácticas antes de ejecutar
 
 Revisa el YAML para entender requests, matchers y extractors.
+```
+### Leer más: https://www.linkedin.com/posts/imane-l_cybersecurity-ciberseguridad-nuclei-activity-7391075893240213504-mnPI?utm_source=share&utm_medium=member_ios&rcm=ACoAAEQbOa0BWJkvrbiZ2GDZTNkoerFhzSvWnCQ
 
-Leer más: https://www.linkedin.com/posts/imane-l_cybersecurity-ciberseguridad-nuclei-activity-7391075893240213504-mnPI?utm_source=share&utm_medium=member_ios&rcm=ACoAAEQbOa0BWJkvrbiZ2GDZTNkoerFhzSvWnCQ
+
+
+
+
