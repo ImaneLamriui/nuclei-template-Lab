@@ -21,6 +21,7 @@ sudo mv nuclei /usr/local/bin/
 # ejecutar la plantilla contra un objetivo de PRUEBA
 echo "http://localhost:8000" | nuclei -t ~/.local/nuclei-templates/http/cves/2025/CVE-2025-1025-prueba.yaml -debug -o ~/nuclei_demo_cve1025_safe/demo_resultados.txt
 
+```
 Qué hace la plantilla (resumen)
 Simula petición de login y verificación de csrf.
 
@@ -31,7 +32,7 @@ Devuelve coincidencia si el servidor responde con los indicadores definidos en m
 Buenas prácticas antes de ejecutar
 
 Revisa el YAML para entender requests, matchers y extractors.
-```
+
 ### Leer más: https://www.linkedin.com/posts/imane-l_cybersecurity-ciberseguridad-nuclei-activity-7391075893240213504-mnPI?utm_source=share&utm_medium=member_ios&rcm=ACoAAEQbOa0BWJkvrbiZ2GDZTNkoerFhzSvWnCQ
 
 
