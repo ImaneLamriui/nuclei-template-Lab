@@ -1,5 +1,5 @@
 # nuclei-template-Lab
-# CVE-2025-1025 — Plantilla demo para Nuclei
+# CVE-2025-1025 — Plantilla Prueba para Nuclei
 
 <img src="nuclei-1.jpg">
 
