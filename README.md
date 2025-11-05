@@ -1,4 +1,4 @@
-# nuclei-template-Lab: ##### https://www.linkedin.com/posts/imane-l_cybersecurity-ciberseguridad-nuclei-activity-7391075893240213504-mnPI?utm_source=share&utm_medium=member_ios&rcm=ACoAAEQbOa0BWJkvrbiZ2GDZTNkoerFhzSvWnCQ
+# nuclei-template-Lab
 # CVE-2025-1025 — Plantilla demo para Nuclei
 
 **Descripción**  
@@ -32,4 +32,4 @@ Buenas prácticas antes de ejecutar
 
 Revisa el YAML para entender requests, matchers y extractors.
 
-
+Leer más: https://www.linkedin.com/posts/imane-l_cybersecurity-ciberseguridad-nuclei-activity-7391075893240213504-mnPI?utm_source=share&utm_medium=member_ios&rcm=ACoAAEQbOa0BWJkvrbiZ2GDZTNkoerFhzSvWnCQ
