@@ -3,7 +3,7 @@
 
 <img src="nuclei-1.jpg">
 
-**Lectura de la plantilla**  
+## Lectura de la plantilla  
 
 <img src="nuclei-cve.jpg">
 
@@ -23,9 +23,9 @@
 
 8-GET /storage/uploads/{{upload_path}} → Accede al archivo subido.
 
-    8-1 Matchers → Comprueba que el HTTP status sea 200.
+8-1 Matchers → Comprueba que el HTTP status sea 200.
 
-    8-2 Verifica que el contenido incluya el marker aleatorio.
+ 8-2 Verifica que el contenido incluya el marker aleatorio.
 
 **Descripción**  
 Plantilla **sanitizada** y de demostración (CVE-2025-1025) para uso educativo con Nuclei. Esta plantilla simula un flujo *login → upload → verify* y **no** contiene PoC explotables. Pensada para entornos de prueba o laboratorios.
