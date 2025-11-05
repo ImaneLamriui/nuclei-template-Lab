@@ -22,7 +22,7 @@ sudo mv nuclei /usr/local/bin/
 echo "http://localhost:8000" | nuclei -t ~/.local/nuclei-templates/http/cves/2025/CVE-2025-1025-prueba.yaml -debug -o ~/nuclei_demo_cve1025_safe/demo_resultados.txt
 
 ```
-Qué hace la plantilla (resumen)
+Qué hace la plantilla
 Simula petición de login y verificación de csrf.
 
 Simula subida de archivo con un marker aleatorio y comprueba que sea accesible luego.
