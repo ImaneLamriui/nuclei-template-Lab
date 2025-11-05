@@ -7,8 +7,6 @@ Plantilla **sanitizada** y de demostración (CVE-2025-1025) para uso educativo c
 **Advertencia / Uso responsable**  
 Ejecuta esta plantilla **solo** contra sistemas que tengas permiso para evaluar (laboratorio, máquinas propias o programas de bug bounty autorizados). No escanees sistemas ajenos. No publiques evidencia sensible ni URLs reales.
 
-## Contenido del repositorio
-
 ## Requisitos (Kali / Ubuntu / WSL)
 - Nuclei instalado (v3.x recomendado)
 - Plantillas clonadas (si quieres usar otras)
@@ -34,10 +32,4 @@ Buenas prácticas antes de ejecutar
 
 Revisa el YAML para entender requests, matchers y extractors.
 
-Anonimiza o elimina cualquier host real antes de commitear/subir al repo.
 
-Acompaña la plantilla con un SECURITY.md si vas a mantener el repo público.
-
-Licencia
-
-Este proyecto se publica bajo la MIT License. Consulta el archivo LICENSE para detalles.
