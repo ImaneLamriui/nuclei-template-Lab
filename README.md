@@ -1,9 +1,9 @@
 # nuclei-template-Lab
 # CVE-2025-1025 — Plantilla demo para Nuclei
 
-<img src="nuclei-1.png">
+<img src="nuclei-1.jpg">
 
-<img src="nuclei-cve.png">
+<img src="nuclei-cve.jpg">
 
 **Descripción**  
 Plantilla **sanitizada** y de demostración (CVE-2025-1025) para uso educativo con Nuclei. Esta plantilla simula un flujo *login → upload → verify* y **no** contiene PoC explotables. Pensada para entornos de prueba o laboratorios.
