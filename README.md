@@ -7,27 +7,25 @@
 
 <img src="nuclei-cve.jpg">
 
-ID y nombre → Identificación del template.
+1-ID y nombre → Identificación del template.
 
-Severidad → medium, solo de prueba.
+2-Severidad → medium, solo de prueba.
 
-Descripción → Indica que no es intrusivo.
+3-Descripción → Indica que no es intrusivo.
 
-Tags → Ayudan a filtrar/categorizar en Nuclei.
+4-Tags → Ayudan a filtrar/categorizar en Nuclei.
 
-POST /assets/upload → Sube un archivo .txt con contenido aleatorio (marker).
+5-POST /assets/upload → Sube un archivo .txt con contenido aleatorio (marker).
 
-Matcher → Confirma que la subida fue correcta.
+6-Matcher → Confirma que la subida fue correcta.
 
-Extractor → Obtiene la ruta del archivo subido (upload_path).
+7-Extractor → Obtiene la ruta del archivo subido (upload_path).
 
-GET /storage/uploads/{{upload_path}} → Accede al archivo subido.
+8-GET /storage/uploads/{{upload_path}} → Accede al archivo subido.
 
-Matchers →
+    8-1 Matchers → Comprueba que el HTTP status sea 200.
 
-Comprueba que el HTTP status sea 200.
-
-Verifica que el contenido incluya el marker aleatorio.
+    8-2 Verifica que el contenido incluya el marker aleatorio.
 
 **Descripción**  
 Plantilla **sanitizada** y de demostración (CVE-2025-1025) para uso educativo con Nuclei. Esta plantilla simula un flujo *login → upload → verify* y **no** contiene PoC explotables. Pensada para entornos de prueba o laboratorios.
