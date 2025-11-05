@@ -18,10 +18,10 @@ Ejecuta esta plantilla **solo** contra sistemas que tengas permiso para evaluar 
 curl -sSfL https://raw.githubusercontent.com/projectdiscovery/nuclei/v3/cmd/nuclei/install.sh | bash
 sudo mv nuclei /usr/local/bin/
 
-# ejecutar la plantilla contra un objetivo de PRUEBA (reemplaza por tu target autorizado)
-echo "https://anon.example" | nuclei -t templates/http/cves/2025/CVE-2025-1025-prueba.yaml -silent
-Qué hace la plantilla (resumen)
+# ejecutar la plantilla contra un objetivo de PRUEBA
+echo "http://localhost:8000" | nuclei -t ~/.local/nuclei-templates/http/cves/2025/CVE-2025-1025-prueba.yaml -debug -o ~/nuclei_demo_cve1025_safe/demo_resultados.txt
 
+Qué hace la plantilla (resumen)
 Simula petición de login y verificación de csrf.
 
 Simula subida de archivo con un marker aleatorio y comprueba que sea accesible luego.
